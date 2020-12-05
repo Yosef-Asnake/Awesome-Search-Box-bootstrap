@@ -3,7 +3,6 @@ body,html{
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: aqua;
 }
 .searchbar{
     margin-bottom: auto;
@@ -45,7 +44,16 @@ body,html{
     color:white;
     text-decoration:none;
 }
-
+.card {
+    width: 100%;
+    height: 50vh;
+    background: url("image 2.jpg") no-repeat;
+    background-size: cover;
+}
+.card:hover {
+    background: url("image 3.jpg") no-repeat;
+    background-size: 100% 100%;
+}
        
 
     
